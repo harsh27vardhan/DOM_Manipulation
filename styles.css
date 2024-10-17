@@ -48,6 +48,7 @@ form button{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    max-width: 90%;
 }
 .container table{
     border: 2px solid black;
@@ -57,6 +58,7 @@ form button{
     display: flex;
     flex-direction: column;
     /* gap: 0.5rem; */
+    overflow: auto;
 }
 .container table tr{
     /* border: 2px solid black; */
